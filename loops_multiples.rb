@@ -19,3 +19,14 @@
 
 p "Enter a number:"
 
+user_input = gets.chomp.to_i
+
+multiple = 1
+
+10.times do 
+  p user_input * multiple
+  multiple += 1
+end
+
+
+
